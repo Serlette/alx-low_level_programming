@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - print single digits
-  * Return: always 0
-  */
+ * main - print single digits
+ * Return: always 0
+ */
 
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	for (x  = 0; x < 10; x++)
 		printf("%d", x);
 
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
