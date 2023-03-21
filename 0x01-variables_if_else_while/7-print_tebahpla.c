@@ -1,3 +1,5 @@
+/* 7-print_tebahpla */
+
 #include <stdio.h>
 
 /**
