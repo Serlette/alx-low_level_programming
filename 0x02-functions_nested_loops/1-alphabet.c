@@ -10,8 +10,10 @@ void print_alphabet(void)
 	char i = 'a';
 
 	while (i <= 'z')
-		i++;
+	{
 		_putchar(i);
+		i++;
+	}
 	_putchar('\n');
 }
 

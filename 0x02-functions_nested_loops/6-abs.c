@@ -2,7 +2,7 @@
 
 /**
  * _abs - prints absolute value of an integer
- * @int: type of argument
+ * @n: type of argument
  * Return: Always 0
  */
 
