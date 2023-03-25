@@ -2,14 +2,14 @@
 
 /**
  * print_most_numbers - prints digits except 2 and 4
- * follwed by a nw line
+ * followed by a new line
  */
 
 void print_most_numbers(void)
 {
 	int i;
 
-	for (i = 0; i < 10, i++)
+	for (i = 0; i < 10; i++)
 	{
 		if (i != 2 && i != 4)
 		{
