@@ -3,6 +3,7 @@
 /**
  *print_line - draw a straight line
  *in the terminal
+ * @n: argument
  */
 
 void print_line(int n)
@@ -12,7 +13,9 @@ void print_line(int n)
 	if (n >= 1)
 	{
 		(for n = 1; n >= 1; n++)
+		{
 			_putchar('_');
+		}
 		_putchar('\n');
 	}
 	else
