@@ -4,6 +4,7 @@
 /**
  * _strlen - returns length of string
  * @s: pointer to var s
+ *Return: Always 0
  */
 
 int _strlen(char *s)
