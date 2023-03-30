@@ -11,7 +11,6 @@ char *_strcat(char *dest, char *src)
 {
 	int n;
 	int m;
-	int p;
 
 	n = 0;
 	m = 0;
@@ -19,11 +18,13 @@ char *_strcat(char *dest, char *src)
 	while (dest[n] != '\0')
 		n++;
 
-	while (src[m] != m && m < p)
+	while (src[m] != '\0')
 	{
 		dest[n] = src[m];
-		i++;
-		j++;
+		m++;
+		n++;
 	}
+	dest[n] = '\0';
+
 	return (dest);
 }
