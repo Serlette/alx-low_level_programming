@@ -1,18 +1,19 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - function name
  * argc: argument count
- *argv: argument variable
+ * argv: argument variable
  * Return: Always 0
  */
 
-int main(int argc, char argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i;
+	int i = 0;
 
-	if (i == 0)
-		printf("%s/n", argv[i]);
+	printf("%s/n", argv[i]);
+
 	return (0);
 }
