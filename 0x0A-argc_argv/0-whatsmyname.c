@@ -3,8 +3,8 @@
 
 /**
  * main - function name
- * argc: argument count
- * argv: argument variable
+ * @argc: argument count
+ * @argv: argument variable
  * Return: Always 0
  */
 
